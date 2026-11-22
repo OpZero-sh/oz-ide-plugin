@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "oz-ide": {
+      "type": "streamable-http",
+      "url": "https://oz-ide.mcp.opzero.sh/mcp"
+    }
+  }
+}

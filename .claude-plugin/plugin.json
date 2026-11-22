@@ -1,0 +1,25 @@
+{
+  "name": "oz-ide",
+  "displayName": "Oz IDE",
+  "version": "1.0.0",
+  "description": "Work with branches, make anchored source edits, and review proposals against a versioned repository.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://github.com/OpZero-sh/oz-ide-plugin",
+  "repository": "https://github.com/OpZero-sh/oz-ide-plugin",
+  "license": "MIT",
+  "keywords": [
+    "source control",
+    "repository",
+    "code editor",
+    "merge queue",
+    "mcp"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://github.com/OpZero-sh/oz-ide-plugin#readme",
+  "supportUrl": "https://opzero.sh/support",
+  "privacyPolicyUrl": "https://opzero.sh/privacy",
+  "termsOfServiceUrl": "https://opzero.sh/terms"
+}

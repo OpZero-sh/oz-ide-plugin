@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "oz-ide",
+  "version": "1.0.0",
+  "description": "Work with branches, make anchored source edits, and review proposals against a versioned repository.",
+  "author": {
+    "name": "OpZero",
+    "url": "https://opzero.sh"
+  },
+  "homepage": "https://github.com/OpZero-sh/oz-ide-plugin",
+  "repository": "https://github.com/OpZero-sh/oz-ide-plugin",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Oz IDE",
+        "shortDescription": "Explore and edit source",
+        "longDescription": "Work with branches, make anchored source edits, and review proposals against a versioned repository.",
+        "developerName": "OpZero",
+        "category": "Developer Tools",
+        "websiteURL": "https://github.com/OpZero-sh/oz-ide-plugin",
+        "privacyPolicyURL": "https://opzero.sh/privacy",
+        "supportURL": "https://opzero.sh/support",
+        "termsOfServiceURL": "https://opzero.sh/terms",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

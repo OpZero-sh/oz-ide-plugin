@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "name": "oz-ide",
+  "version": "1.0.0",
+  "displayName": "Oz IDE",
+  "description": "Work with branches, make anchored source edits, and review proposals against a versioned repository.",
+  "compat": {
+    "source": "native",
+    "manifestDir": ".muse-plugin"
+  },
+  "capabilities": {
+    "skills": [
+      {
+        "id": "edit-source",
+        "path": "skills/edit-source/SKILL.md"
+      }
+    ],
+    "mcpServers": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "oz-ide": {
+    "url": "https://oz-ide.mcp.opzero.sh/mcp",
+    "allowed_tools": [
+      "src_outline",
+      "src_read",
+      "src_repos"
+    ],
+    "token_env": "OZ_IDE_ACCESS_TOKEN"
+  }
+}
