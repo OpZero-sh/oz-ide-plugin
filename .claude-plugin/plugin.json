@@ -21,5 +21,10 @@
   "documentationUrl": "https://github.com/OpZero-sh/oz-ide-plugin#readme",
   "supportUrl": "https://opzero.sh/support",
   "privacyPolicyUrl": "https://opzero.sh/privacy",
-  "termsOfServiceUrl": "https://opzero.sh/terms"
+  "termsOfServiceUrl": "https://opzero.sh/terms",
+  "network": {
+    "hosts": [
+      "oz-ide.mcp.opzero.sh"
+    ]
+  }
 }

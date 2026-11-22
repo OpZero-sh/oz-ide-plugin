@@ -13,6 +13,18 @@
       {
         "id": "edit-source",
         "path": "skills/edit-source/SKILL.md"
+      },
+      {
+        "id": "review-and-merge",
+        "path": "skills/review-and-merge/SKILL.md"
+      },
+      {
+        "id": "history-and-restore",
+        "path": "skills/history-and-restore/SKILL.md"
+      },
+      {
+        "id": "import-and-export",
+        "path": "skills/import-and-export/SKILL.md"
       }
     ],
     "mcpServers": []
