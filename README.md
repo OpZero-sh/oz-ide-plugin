@@ -43,10 +43,10 @@ None. Oz IDE keeps history, so a replaced or deleted file remains reachable from
 
 ### Optional files for other clients
 
-These files are not run by Claude. They exist so the same product can be used from other assistants.
+These files are not run by Claude. They exist so the same product can be used from other assistants. The two scripts that use them are not in this repository. They live in the catalog repository, [OpZero-sh/plugins](https://github.com/OpZero-sh/plugins).
 
-- `scripts/build_openai.py` builds a ZIP package for ChatGPT and Codex from the files in this repository. It reads local files and writes ZIP files to the folder you name. It makes no network calls.
-- `integrations/grok_example.py` is a sample for the xAI API. It runs only when you run it. With `--dry-run` it prints a request and sends nothing. Without it, the script reads `XAI_API_KEY` from your environment and sends one request to `https://api.x.ai/v1/responses`. If `OZ_IDE_ACCESS_TOKEN` is set, that OpZero access token is included in the request so that xAI can call the Oz IDE server for you.
+- The catalog's `tools/build_openai.py` builds a ZIP package for ChatGPT and Codex from this repository's skills, license, `assets/icon.png` and `integrations/openai`. It reads local files and writes ZIP files to the folder you name. It makes no network calls.
+- The catalog's `tools/grok_example.py` is a sample for the xAI API. It runs only when you run it. It reads `integrations/grok-servers.json`. With `--dry-run` it prints a request and sends nothing. Without it, the script reads `XAI_API_KEY` from your environment and sends one request to `https://api.x.ai/v1/responses`. If `OZ_IDE_ACCESS_TOKEN` is set, that OpZero access token is included in the request so that xAI can call the Oz IDE server for you.
 - `integrations/grok-servers.json`, `integrations/muse-settings.json` and the files under `integrations/openai` are configuration for those clients. They contain the same server URL and no credentials.
 
 ## Limits
